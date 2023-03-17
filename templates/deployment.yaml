@@ -14,7 +14,7 @@ spec:
         app: hello-flask
     spec:
       securityContext:
-        runAsUser: 1000
+        runAsuser: 1000
         runAsGroup: 3000
         fsGroup: 2000
       enableServiceLinks: false
